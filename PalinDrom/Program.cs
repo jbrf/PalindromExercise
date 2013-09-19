@@ -17,17 +17,21 @@ class Program
         //return result;
     
     }
-
+    public static string Palindrom(string i)
+    {
+        return i;
+    }
    
 
 
     static void Main()
     {
-        Console.WriteLine("Please enter a word to spell it backwards and see if it's an palindrome");
+        Console.WriteLine("Please enter a word to spell it backwards and to see if it's a palindrome");
         string word = Console.ReadLine();
         word = word.ToLower();
         Console.WriteLine(ReverseText(word));
-        Console.WriteLine(word);
+        Console.WriteLine(Palindrom(word));
+        
         
     }
 }
